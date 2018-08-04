@@ -12,6 +12,10 @@
 		FE0B6EA32105EFAF009FDDEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0B6EA12105EFAF009FDDEE /* Main.storyboard */; };
 		FE0B6EA52105EFAF009FDDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0B6EA42105EFAF009FDDEE /* Assets.xcassets */; };
 		FE0B6EA82105EFAF009FDDEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0B6EA62105EFAF009FDDEE /* LaunchScreen.storyboard */; };
+		FE0B6EB02105EFD8009FDDEE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0B6EAF2105EFD8009FDDEE /* TableViewController.swift */; };
+		FE0B6EB22105F0AC009FDDEE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0B6EB12105F0AC009FDDEE /* CustomTableViewCell.swift */; };
+		FEADEF852108A7ED00AD310B /* EditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEADEF842108A7ED00AD310B /* EditingViewController.swift */; };
+		FEADEF872108B19000AD310B /* StructOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEADEF862108B19000AD310B /* StructOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		FE0B6EA42105EFAF009FDDEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE0B6EA72105EFAF009FDDEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE0B6EA92105EFAF009FDDEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0B6EAF2105EFD8009FDDEE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		FE0B6EB12105F0AC009FDDEE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		FEADEF842108A7ED00AD310B /* EditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingViewController.swift; sourceTree = "<group>"; };
+		FEADEF862108B19000AD310B /* StructOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				FE0B6E9D2105EFAF009FDDEE /* AppDelegate.swift */,
 				FE0B6E9F2105EFAF009FDDEE /* ViewController.swift */,
 				FE0B6EA12105EFAF009FDDEE /* Main.storyboard */,
+				FE0B6EB12105F0AC009FDDEE /* CustomTableViewCell.swift */,
+				FE0B6EAF2105EFD8009FDDEE /* TableViewController.swift */,
+				FEADEF862108B19000AD310B /* StructOperation.swift */,
+				FEADEF842108A7ED00AD310B /* EditingViewController.swift */,
 				FE0B6EA42105EFAF009FDDEE /* Assets.xcassets */,
 				FE0B6EA62105EFAF009FDDEE /* LaunchScreen.storyboard */,
 				FE0B6EA92105EFAF009FDDEE /* Info.plist */,
@@ -137,6 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE0B6EA02105EFAF009FDDEE /* ViewController.swift in Sources */,
+				FE0B6EB02105EFD8009FDDEE /* TableViewController.swift in Sources */,
+				FE0B6EB22105F0AC009FDDEE /* CustomTableViewCell.swift in Sources */,
+				FEADEF852108A7ED00AD310B /* EditingViewController.swift in Sources */,
+				FEADEF872108B19000AD310B /* StructOperation.swift in Sources */,
 				FE0B6E9E2105EFAF009FDDEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLRYR8YGW4;
 				INFOPLIST_FILE = Task_tracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "elektro.Task-tracker";
@@ -289,6 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLRYR8YGW4;
 				INFOPLIST_FILE = Task_tracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "elektro.Task-tracker";
